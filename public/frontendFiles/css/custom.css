@@ -1,0 +1,6 @@
+/* Add here all your CSS customizations */
+#header .header-logo {
+    margin:  5px !important;
+    position: relative;
+    z-index: 1;
+}
