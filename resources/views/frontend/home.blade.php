@@ -322,26 +322,33 @@
                 </div>
             </div>
             <div class="row mb-5">
-                <div class="col-12 col-md-3 col-sm-6 p-5 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-1"></div>
+                <div class="col-12 col-md-2 col-sm-6 p-5 p-md-3 d-flex justify-content-center align-items-center">
                     <a href="https://eng.asu.edu.eg/" target="_blank">
                         <img class="img-fluid" src="{{asset('frontendFiles/img/partners/1.png')}}" alt="">
                     </a>
                 </div>
-                <div class="col-12 col-md-3 col-sm-6 p-5 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-2 col-sm-6 p-5 p-md-3 d-flex justify-content-center align-items-center">
                     <a href="https://www.britishcouncil.org/" target="_blank">
                         <img class="img-fluid" src="{{asset('frontendFiles/img/partners/2.jpg')}}" alt="">
                     </a>
                 </div>
-                <div class="col-12 col-md-3 col-sm-6 p-5 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-2 col-sm-6 p-5 p-md-3 d-flex justify-content-center align-items-center">
                     <a href="https://isc.cardiff.ac.uk/" target="_blank">
                         <img class="img-fluid" src="{{asset('frontendFiles/img/partners/3.png')}}" alt="">
                     </a>
                 </div>
-                <div class="col-12 col-md-3 col-sm-6 p-5 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-2 col-sm-6 p-5 p-md-3 d-flex justify-content-center align-items-center">
                     <a href="https://repaircafewales.org/" target="_blank">
                         <img class="img-fluid" src="{{asset('frontendFiles/img/partners/4.png')}}" alt="">
                     </a>
                 </div>
+                <div class="col-12 col-md-2 col-sm-6 p-5 p-md-3 d-flex justify-content-center align-items-center">
+                    <a href="#" target="_blank">
+                        <img class="img-fluid" src="{{asset('frontendFiles/img/partners/5.png')}}" alt="">
+                    </a>
+                </div>
+                <div class="col-12 col-md-1"></div>
             </div>
         </div>
     </section>
