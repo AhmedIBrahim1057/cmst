@@ -1,0 +1,113 @@
+.navbar-white {
+    background-color: #007bff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 700;
+}
+
+.content-header {
+    padding: 13px .5rem !important;
+    border-bottom: 1px solid #8080802b !important;
+}
+
+.custom-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-login-card {
+    padding: 30px 30px 0 30px !important;
+}
+
+.select2-selection__choice {
+    background-color: #007bff !important;
+    border: 1px solid #007bff !important;
+}
+
+.custom-login-card>.card-footer {
+    background-color: unset !important;
+    border-top: 1px solid rgba(0, 0, 0, .125) !important;
+    text-align: center !important;
+
+}
+
+.required-asterisk {
+    color: red;
+    font-family: none;
+}
+
+.custom-separator .hr-custom {
+    border-top: 1px solid #007bff !important;
+    border-radius: 5px !important;
+    overflow: visible !important;
+    padding: 10px !important;
+}
+
+.custom-separator .title-custom {
+    display: inline-block;
+    position: relative;
+    bottom: -1.3em;
+    font-size: 1.4em;
+    padding-right: 15px;
+    background: white;
+}
+
+.a-like-btn {
+    background: #007bff;
+    color: white;
+    padding: 1px 6px;
+    border-radius: 5px;
+}
+.a-like-danger-btn {
+    background: red;
+    color: white;
+    padding: 1px 6px;
+    border-radius: 5px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .login-page {
+        background-image: url('/backend/files/login-background.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .custom-overlay {
+        background-color: #0000003b;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login-box {
+        width: 400px !important;
+    }
+
+    .content-header {
+        margin-bottom: 19px !important;
+    }
+
+    .ck-editor__editable {
+        min-height: 200px;
+    }
+    
+    .imgPreview{
+        max-width: 150px;
+        margin:15px 10px 10px;
+    }
+}
+
+.actions .icon{
+    cursor: pointer !important;
+}
+
+.delete-btn{
+    border: 0px !important;
+    background-color: transparent;
+}

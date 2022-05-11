@@ -1298,7 +1298,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 }
 
 /* Header Nav Main */
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
 	#header .header-nav-main {
 		display: flex !important;
 		height: auto !important;
@@ -3083,7 +3083,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 }
 /* Header Nav Main Mobile */
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
 	#header .header-nav-main {
 		position: absolute;
 		background: transparent;

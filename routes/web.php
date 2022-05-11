@@ -24,3 +24,9 @@ Route::get('/contact-us', function () {
 Route::get('/about-us', function () {
     return view('frontend.aboutUs');
 })->name('about');
+Auth::routes();
+
+Route::get('/cms', [App\Http\Controllers\HomeController::class, 'index'])->name('cms');
+
+Route::resource('news', App\Http\Controllers\newsController::class);
+Route::resource('events', App\Http\Controllers\eventsController::class);

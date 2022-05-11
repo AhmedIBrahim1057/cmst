@@ -58,7 +58,7 @@
 	<body>
 
 		<div class="body">
-            <header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt': 0}">
+            {{-- <header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt': 0}">
 				<div class="header-body border-top-0">
 					<div class="header-container container">
 						<div class="header-row">
@@ -112,6 +112,97 @@
 															CONTACT US
 														</a>
 													</li>
+												</ul>
+											</nav>
+										</div>
+										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+											<i class="fas fa-bars"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header> --}}
+			<header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 45, 'stickySetTop': '-45px', 'stickyChangeLogo': true}">
+				<div class="header-body">
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-row">
+									<div class="header-logo">
+										<a href="{{route('home')}}">
+											<img alt="CMST" width="200" height="auto" data-sticky-width="150" data-sticky-height="auto" data-sticky-top="30" src="{{asset('frontendFiles/img/cmst-logo.png')}}">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="header-column justify-content-end">
+								<div class="header-row pt-3 pr-3">
+									<nav class="header-nav-top">
+										<ul class="nav nav-pills">
+											<li class="nav-item nav-item-anim-icon d-none d-md-block">
+												<a class="nav-link pl-0" href="{{route('about')}}"><i class="fas fa-angle-right"></i> About Us</a>
+											</li>
+											<li class="nav-item nav-item-anim-icon d-none d-md-block">
+												<a class="nav-link" href="{{route('contact')}}"><i class="fas fa-angle-right"></i> Contact Us</a>
+											</li>
+											<li class="nav-item nav-item-left-border nav-item-left-border-remove nav-item-left-border-md-show">
+												<ul class="header-social-icons social-icons d-none d-sm-block">
+													<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+													<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+													<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<div class="header-row">
+									<div class="header-nav pt-1">
+										<div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
+											<nav class="collapse">
+												<ul class="nav nav-pills" id="mainNav">
+													<li>
+														<a class="nav-link " href="{{route('home')}}">
+															Home
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#">
+															E-EXPERIMENTS
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#">
+															COMMUNITY RENEWABLES
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#">
+															REPAIR CAFES
+														</a>
+													</li>
+                                                    <li>
+														<a class="nav-link" href="#">
+															INTERNSHIPS
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#">
+															Publications
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#">
+															Events
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#">
+															News
+														</a>
+													</li>
 													{{-- <li>
 														<a class="nav-link" href="#">
 															SIGN IN
@@ -130,7 +221,6 @@
 					</div>
 				</div>
 			</header>
-
             @yield('content')
 
             <footer id="footer" class="bg-color-secondary custom-footer m-0" style="background: url('img/demos/church/footer.jpg'); background-size: cover;">
@@ -304,7 +394,8 @@
 			
 
 		</script>
-
+		
         @yield('js')
+
 	</body>
 </html>

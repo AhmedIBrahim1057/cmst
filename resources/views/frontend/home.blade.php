@@ -257,7 +257,7 @@
         <div class="custom-small-square right-pos d-none d-md-block custom-box-shadow appear-animation" data-appear-animation="customFadeInRight" data-appear-animation-delay="1000" data-plugin-options="{'accY': -300}" style="background: url('img/demos/church/others/small-right-square-img.jpg'); background-size: cover;"></div>
         <div class="container">
             <div class="row justify-content-center text-center">
-                <div class="col-md-8 col-xl-11">
+                <div class="col-md-12 col-xl-11">
                     <h2 class="font-weight-bold">Condition Monitoring for Sustainable Technologies and Climate Change Mitigation</h2>
                     <p>In the year 2022, climate change needs no introduction. It’s in our public discourse, it’s on our news feeds, and it’s on our doorsteps. However, the solutions to the situation in which we find ourselves are diverse, ranging from the extravagant to the mundane, from global paradigm shifts to behavioural changes at the individual level. This internationally collaborative project revolves round three strands of the solution; condition monitoring for sustainable technologies, E-Learning as a non-polluting educational means, and waste reduction through repair; and ties them all together through the central themes of education, dissemination, and sharing of ideas.</p>
                     <a href="{{route('about')}}" class="btn btn-primary custom-btn-style-1 text-uppercase mt-4">Read More</a>
@@ -305,6 +305,112 @@
                                         </p>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- Events --}}
+    <section class="section bg-color-light section-no-border ">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="font-weight-bold mb-4">Latest Events</h2>
+                    <div class="owl-carousel owl-theme show-nav-title appear-animation" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 3}, '1199': {'items': 3}}, 'margin': 10, 'loop': false, 'nav': true, 'dots': true}" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
+                        <div class="card shadow">
+                            <div class="img-wrapper" >
+                                <img class="card-img-top" src="{{asset('frontendFiles/img/slides/slide-4.jpg')}}" alt="Card Image">
+                            </div>
+                            <div class="card-body mt-4">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Card Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus nulla dui, in dapi.</p>
+                                <a href="/" class="read-more text-color-primary font-weight-semibold text-2">Read More <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <div class="img-wrapper" >
+                                <img class="card-img-top" src="{{asset('frontendFiles/img/slides/slide-5.jpg')}}" alt="Card Image">
+                            </div>
+                            <div class="card-body mt-4">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Card Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus nulla dui, in dapi.</p>
+                                <a href="/" class="read-more text-color-primary font-weight-semibold text-2">Read More <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <div class="img-wrapper" >
+                                <img class="card-img-top" src="{{asset('frontendFiles/img/slides/slide-6.jpg')}}" alt="Card Image">
+                            </div>
+                            <div class="card-body mt-4">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Card Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus nulla dui, in dapi.</p>
+                                <a href="/" class="read-more text-color-primary font-weight-semibold text-2">Read More <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <div class="img-wrapper" >
+                                <img class="card-img-top" src="{{asset('frontendFiles/img/slides/slide-7.jpg')}}" alt="Card Image">
+                            </div>
+                            <div class="card-body mt-4">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Card Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus nulla dui, in dapi.</p>
+                                <a href="/" class="read-more text-color-primary font-weight-semibold text-2">Read More <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- News --}}
+    <section class="section section-tertiary section-no-border m-0">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="font-weight-bold custom-text-color-1 mb-4" >Latest News</h2>
+                    <div class="owl-carousel owl-theme show-nav-title appear-animation" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 3}, '1199': {'items': 3}}, 'margin': 10, 'loop': false, 'nav': true, 'dots': true}" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
+                        <div class="card shadow">
+                            <div class="img-wrapper" >
+                                <img class="card-img-top" src="{{asset('frontendFiles/img/slides/slide-4.jpg')}}" alt="Card Image">
+                            </div>
+                            <div class="card-body mt-4">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Card Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus nulla dui, in dapi.</p>
+                                <a href="/" class="read-more text-color-primary font-weight-semibold text-2">Read More <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <div class="img-wrapper" >
+                                <img class="card-img-top" src="{{asset('frontendFiles/img/slides/slide-5.jpg')}}" alt="Card Image">
+                            </div>
+                            <div class="card-body mt-4">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Card Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus nulla dui, in dapi.</p>
+                                <a href="/" class="read-more text-color-primary font-weight-semibold text-2">Read More <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <div class="img-wrapper" >
+                                <img class="card-img-top" src="{{asset('frontendFiles/img/slides/slide-6.jpg')}}" alt="Card Image">
+                            </div>
+                            <div class="card-body mt-4">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Card Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus nulla dui, in dapi.</p>
+                                <a href="/" class="read-more text-color-primary font-weight-semibold text-2">Read More <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <div class="img-wrapper" >
+                                <img class="card-img-top" src="{{asset('frontendFiles/img/slides/slide-7.jpg')}}" alt="Card Image">
+                            </div>
+                            <div class="card-body mt-4">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Card Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus nulla dui, in dapi.</p>
+                                <a href="/" class="read-more text-color-primary font-weight-semibold text-2">Read More <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -473,4 +579,9 @@
             </div>
         </div>
     </section> --}}
+@endsection
+
+@section('js')
+<!-- Examples -->
+<script src="{{asset('frontendFiles/js/examples/examples.carousels.js')}}"></script>
 @endsection
